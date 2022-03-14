@@ -1,6 +1,6 @@
 
 
-### 🎬 [01 使用 *host-fasthttp* 快速建構你的第一個 Web API](01_QUICK_START.md)
+### 🎬 [01 使用 **host-fasthttp** 快速建構你的第一個 Web API](01_QUICK_START.md)
 > 介紹如何使用 `host-fasthttp` 、 `gen-host-fasthttp-resource` 等 go tool 來快速建構一個新的專案。
 
 ### 🎬 [02 Echo 範例](02_ECHO_DEMO.md)
