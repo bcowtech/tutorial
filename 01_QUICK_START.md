@@ -3,7 +3,7 @@
 **March 2022**  |  **v1.0**
 
 
-bcowtech/host-fasthttp 快速入門指南
+01 使用 host-fasthttp 快速建構你的第一個 Web API
 ==================================
 
 ###### tags: `host-fasthttp` `tutorial`
@@ -178,6 +178,6 @@ bcowtech/host-fasthttp 快速入門指南
 ----------------
 ### 🎬 What's Next?
 
-  > ### [**#02 Echo 範例**](02_ECHO_DEMO.md)
+  > ### [**02 Echo 範例**](02_ECHO_DEMO.md)
   > 本節將介紹 `httparg` 如何對輸入的 `QuertString` 、 `PostBody` 參數做處理。
 

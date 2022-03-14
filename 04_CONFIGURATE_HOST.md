@@ -3,7 +3,7 @@
 **March 2022**  |  **v1.0**
 
 
-設定檔配置
+04 設定檔配置
 ================================
 🎯 本節使用 `Host.Init()` 以及 *config.yaml* 來配置 **Host** 服務各種執行環境設定。你將會掌握：
 
@@ -24,7 +24,7 @@
 
 ⠿ 使用 *host-fasthttp* 開發的應用程式，所使用的 Host 引擎是以 [*valyala/fasthttp*](https://github.com/valyala/fasthttp) 為主體，這個引擎由 *host-fasthttp* 的 `Host` 型別包裝；同時 *host-fasthttp* 亦提供 `Init()` 方法，作為應用程式配置所需的服務設定，比如：通訊埠、服務監聽位址、服務名稱、是否啟用*HTTP*壓縮……等。
 
-⠿ 我們可以在章節 «[#01 host-fasthttp 快速入門指南](01_QUICK_START.md)» 的專案中的 **internal/appContext.go** 的內容找到 **Host.Init()** 方法中配置 Host 服務基礎設定。這個實作的方法，由已完成繫結的 **Config** 物件來，進行 **Host** 物件的配置。
+⠿ 我們可以在章節 «[01 01 使用 host-fasthttp 快速建構你的第一個 Web API](01_QUICK_START.md)» 的專案中的 **internal/appContext.go** 的內容找到 **Host.Init()** 方法中配置 Host 服務基礎設定。這個實作的方法，由已完成繫結的 **Config** 物件來，進行 **Host** 物件的配置。
 
 > 💾 **internal/appContext.go**
 > ```go
@@ -66,7 +66,7 @@
 
 ## 認識在 Config 以及 config.yaml 中，與 Host 有關的設定
 
-⠿ 有關 Host 服務的基礎設定，如：通訊埠、服務監聽位址、服務名稱、是否啟用*HTTP*壓縮……等；在章節 «[#01 host-fasthttp 快速入門指南](01_QUICK_START.md)» 的專案中，分別定義於 **internal/appContext.go**、**config.yaml**、**config.local.yaml** 內容中。
+⠿ 有關 Host 服務的基礎設定，如：通訊埠、服務監聽位址、服務名稱、是否啟用*HTTP*壓縮……等；在章節 «[01 使用 host-fasthttp 快速建構你的第一個 Web API](01_QUICK_START.md)» 的專案中，分別定義於 **internal/appContext.go**、**config.yaml**、**config.local.yaml** 內容中。
 
 > 💾 **internal/appContext.go**
 > ```go
@@ -129,7 +129,7 @@
 >
 > 🐾 有關設定檔載入順序機制將在下方 «[設定檔載入順序機制](#設定檔載入順序機制))» 進行更深入的說明。
 
-> 🐾 在章節 «[#01 host-fasthttp 快速入門指南](01_QUICK_START.md)» 的專案中並沒有提供 **.VERSION** 的檔案，由於這個檔案在開發過程非必要存在；若想要了解，可以在專案目錄下建立一個名為 **.VERSION** 的檔案，並填入下方內容。
+> 🐾 在章節 «[01 使用 host-fasthttp 快速建構你的第一個 Web API](01_QUICK_START.md)» 的專案中並沒有提供 **.VERSION** 的檔案，由於這個檔案在開發過程非必要存在；若想要了解，可以在專案目錄下建立一個名為 **.VERSION** 的檔案，並填入下方內容。
 >
 > 💾 **.VERSION**
 > ```
@@ -144,7 +144,7 @@
 
 ⠿ 在現代開發專案時，一定會用到環境變數，像是讀取 `AWS Secret Key` 等等，在部署上面也會透過設定變數讓專案依據不同環境讀取不同環境變數，在此使用 [*joho/godotenv*](https://github.com/joho/godotenv) 套件模擬實現讀取環境變數的設定，可以讓開發者透過 `.env` 檔案動態改變環境變數。
 
-> 我們可以在章節 «[#01 host-fasthttp 快速入門指南](01_QUICK_START.md)» 的專案中找到 **.env** 檔。
+> 我們可以在章節 «[01 使用 host-fasthttp 快速建構你的第一個 Web API](01_QUICK_START.md)» 的專案中找到 **.env** 檔。
 >
 > 💾 **.env**
 > ```yaml
@@ -258,5 +258,5 @@ $ curl -s-v -XPING http://127.0.0.1:20074/
 ----------------
 ### 🎬 What's Next?
 
-  > ### [**#05 開發慣例**](05_DEVELOPMENT_PRACTICE.md)
-  > 本節將介紹專案開發中的開發慣例，例如：專案目錄結構、命名規範...等等。
+  > ### [**05 開發慣例**](05_DEVELOPMENT_PRACTICE.md)
+  > 本節將介紹 `host-fasthttp` 的專案中的開發慣例，例如專案目錄的規範、命名規範...等等。

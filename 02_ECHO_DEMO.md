@@ -3,7 +3,7 @@
 **March 2022**  |  **v1.0**
 
 
-Echo 範例
+02 Echo 範例
 ================================
 🎯 本節使用 httparg 來處理輸入的參數。你將會掌握：
 
@@ -182,5 +182,5 @@ Echo 範例
 ----------------
 ### 🎬 What's Next?
 
-  > ### [**#03 Translate 範例**](03_TRANSLATE_DEMO.md)
-  > 本節將介紹 `ServiceProvider` 如何注入與使用第三方資源或服務處理。
+  > ### [**03 Translate 範例**](03_TRANSLATE_DEMO.md)
+  > 本節將介紹 `ServiceProvider` 如何將共用資源注入，並讓應用程式調取使用。

@@ -3,7 +3,7 @@
 **March 2022**  |  **v1.0**
 
 
-Translate 範例
+03 Translate 範例
 ================================
 🎯 本節使用 ServiceProvider 提供應用程式與資源互動。你將會掌握：
 
@@ -328,5 +328,5 @@ Translate 範例
 ----------------
 ### 🎬 What's Next?
 
-  > ### [**#04 設定檔配置**](04_CONFIGURATE_HOST.md.md)
-  > 本節使用`Host.Init()`以及`config.yaml`來配置`Host`服務各種執行環境設定。
+  > ### [**04 設定檔配置**](04_CONFIGURATE_HOST.md.md)
+  > 本節將介紹 `host-fasthttp` 的集中管理設定值的設計，以及如何定義不同環境的設定檔，以及如何切換不同的工作環境。
