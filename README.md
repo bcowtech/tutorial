@@ -1,11 +1,16 @@
-# bcowtech/host-fasthttp
 
-[01. 快速入門指南](01_QUICK_START.md)
 
-[02. Echo 範例](02_ECHO_DEMO.md)
+### 🎬 [01 使用 *host-fasthttp* 快速建構你的第一個 Web API](01_QUICK_START.md)
+> 介紹如何使用 `host-fasthttp` 、 `gen-host-fasthttp-resource` 等 go tool 來快速建構一個新的專案。
 
-[03. Translate 範例](03_TRANSLATE_DEMO.md)
+### 🎬 [02 Echo 範例](02_ECHO_DEMO.md)
+> 本節將介紹 `httparg` 如何對輸入的 `QuertString` 、 `PostBody` 參數做處理。
 
-[04. 設定檔配置](04_CONFIGURATE_HOST.md)
+### 🎬 [03 Translate 範例](03_TRANSLATE_DEMO.md)
+> 本節將介紹 `ServiceProvider` 如何將共用資源注入，並讓應用程式調取使用。
 
-[02. 開發慣例](05_DEVELOPMENT_PRACTICE.md)
+### 🎬 [04 設定檔配置](04_CONFIGURATE_HOST.md)
+> 本節將介紹 `host-fasthttp` 的集中管理設定值的設計，以及如何定義不同環境的設定檔，以及如何切換不同的工作環境。
+
+### 🎬 [05 開發慣例](05_DEVELOPMENT_PRACTICE.md)
+> 本節將介紹 `host-fasthttp` 的專案中的開發慣例，例如專案目錄的規範、命名規範...等等。
